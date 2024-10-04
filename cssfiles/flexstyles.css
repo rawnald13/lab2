@@ -1,6 +1,6 @@
 /* INDEX */
 .body1 {
-    background-image: url("/assets/background1.png");
+    background-image: url("./assets/background1.png");
     background-size: cover; /* Ensure background covers the entire body */
     background-position: center;
 }
@@ -16,7 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 10; /* Removed 'px' from z-index */
-    background-image: url("/assets/background2.png");
+    background-image: url("./assets/background2.png");
     margin: 5% auto; /* Centered margin with percentage */
     padding: 20px;
     max-width: 800px; /* Max width for large screens */
