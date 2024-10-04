@@ -1,6 +1,6 @@
  body.educBackground{
     margin: 0px;
-    height: 100vh;
+    height: auto;
     background: linear-gradient(to right, #3f87a6, #ebf8e1, #f69d3c); /* Linear gradient background */
     display: flex;
     justify-content: center;
@@ -8,16 +8,15 @@
 }
 
 .backGCont{
-    width: 70%;
+    width: auto;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     margin:auto;
 }
 
 .school{
-    padding: 50px;
-    margin-top: 100px;
-    margin-top: 100px;
-    margin: 100px;
+    padding: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 5px solid #333; /* Adjust thickness, style, and color as needed */
 }
 
