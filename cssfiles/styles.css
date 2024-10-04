@@ -1,0 +1,159 @@
+/* INDEX*/
+.body1 {
+    background-image: url("/assets/background1.png");
+}
+
+.container1 {
+    position:static;
+    border: 1px solid white;
+    margin: 100px; 
+    text-align: center;
+
+}
+
+.index {
+    position:sticky;
+    top: 0;
+    z-index: 10px;
+    background-image: url("/assets/background2.png");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    max-width: 800px;
+    
+}
+
+.profile {
+    position: sticky;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 200px;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.toProf {   
+    margin-top: 50px;
+    color: white;
+}
+.welcome {
+    text-align: center;
+    color: beige;
+}
+
+/*PROFILE*/
+.FrontPage {
+    background-color: rgb(13, 13,130 );
+}
+
+
+.sideGif{
+    width: 100px;
+    height: 50px;
+    margin-right:50px;
+    pointer-events: none;
+}
+.container2{
+    position: relative;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 20;   
+    margin: 0;
+    background-color: rgb(13, 13,130 );
+}
+
+.header p, h2,iframe {
+    text-align: center;
+    display: inline;
+    margin: 0px;
+}
+
+.hrHeader{
+    position: sticky;
+    top: 0;
+    height: 3px;
+    background-color: burlywood;
+    margin-top: 0%;
+}
+
+.name{
+    color: aliceblue;
+    font-family:default;
+    text-align: left;
+    font-size: x-large;
+    margin-bottom:0 ;
+    font-family: default;
+    
+}
+
+.cName a{
+    color: aliceblue;
+    font-size: x-large;
+    margin-right: 50px;
+}
+
+.cName a:visited{
+    color: gray;
+}
+
+.cName a:hover{
+    color: rgb(203, 54, 54);
+}
+
+.clickable{
+    display: inline;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.me {
+    width: 33%;
+    height: auto;
+    margin: 0;
+}
+
+.introduction{
+    border: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgb(67, 103, 150);
+}
+
+.introduction h3{
+    margin: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.introduction p{
+    margin: 0;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: aliceblue;
+}
+
+.intro-cont{
+    background-image: url("/image/download.jpg");
+    background-size: cover;
+    background-position: center ;
+    margin: 0px;
+}
+
+
+
+

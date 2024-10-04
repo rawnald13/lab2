@@ -1,0 +1,61 @@
+
+/*about me page*/
+.aboutme{
+    background-color: rgb(108, 165, 230);
+}
+
+.blurCont {
+    padding: 0%;
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url("/assets/aboutme1.jpg"); /* Your background image */
+    background-size: cover; /* Ensure it covers the whole container */
+    background-position: center;
+  
+}
+
+.blurCont::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%; /* Cover the left half or adjust as needed */
+    height: 100%;
+    background: url("/assets/aboutme1.jpg"); /* Inherit the background image */
+    background-size: cover;
+    background-position: left center; /* Align with the original background */
+    filter: blur(5px); /* Apply blur effect */
+    z-index: 1; /* Ensure it's above the background */
+}
+
+.aboutmeContent{
+    text-align: center;
+    display: block;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust as needed */
+    height: 100%;
+    /*ilter: blur(5px); /* will not show the text*/
+    z-index: 2; /* Place above the blurred background */
+}
+
+.information{
+    height: 600px;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.information h2,h3{
+    margin: 50px 5px 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.highlights {
+    color: navy;
+}
+

@@ -1,0 +1,191 @@
+/* INDEX */
+.body1 {
+    background-image: url("/assets/background1.png");
+    background-size: cover; /* Ensure background covers the entire body */
+    background-position: center;
+}
+
+.container1 {
+    position: static;
+    border: 1px solid white;
+    margin: 5% auto; /* Use percentages for margins */
+    text-align: center;
+}
+
+.index {
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Removed 'px' from z-index */
+    background-image: url("/assets/background2.png");
+    margin: 5% auto; /* Centered margin with percentage */
+    padding: 20px;
+    max-width: 800px; /* Max width for large screens */
+    width: 90%; /* Full width on smaller screens */
+}
+
+.profile {
+    position: sticky;
+    bottom: 0;
+    margin: 5% auto; /* Centered margin with percentage */
+    padding: 20px;
+    max-width: 1000px; /* Max width for large screens */
+    width: 90%; /* Full width on smaller screens */
+}
+
+.toProf {   
+    margin-top: 5%; /* Use percentage for better scaling */
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    color: beige;
+}
+
+/* PROFILE */
+.FrontPage {
+    background-color: rgb(13, 13, 130);
+}
+
+.sideGif {
+    width: 100px;                    /* Set a fixed width for the GIF */
+    height: auto;                    /* Maintain aspect ratio */
+    margin-right: 10px;              /* Space between GIF and text */
+    margin-bottom: 0%;
+    border: none;
+}
+
+.container2 {
+    position: relative;
+}
+
+.header {
+    position: sticky;            /* Make the header sticky */
+    top: 0;                     /* Stick to the top */    
+    margin: 5px;              /* Optional margin around header */
+    padding: 10px;             /* Optional padding */
+    background-color: rgb(13, 13, 130); /* Background color */
+    z-index: 2;             /* Ensure it appears above other content */
+}
+
+.header p, h2 {
+    display: inline-flex; /* Changed to inline-block for better layout control */
+    margin: 10px 10px 0px 0;
+}
+
+.hrHeader {
+    height: 3px;                /* Height of the header line */
+    background-color: burlywood; /* Color of the header line */
+    width: 100%;                /* Full width */
+}
+
+.name {
+    color: aliceblue;
+    font-family: default;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem; /* Use rem for scalable font size */
+    margin-bottom: 0;
+    margin-left: 0%;
+}
+
+.cName a {
+    color: aliceblue;
+    font-size: 2rem; /* Use rem for scalable font size */
+    margin-right: 0; /* Responsive margin */
+}
+
+.cName a:visited {
+    color: gray;
+}
+
+.cName a:hover {
+    color: rgb(203, 54, 54);
+}
+
+.clickable {
+    display: inline;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imgHolder{
+    display: flex;          /* Enable flexbox */
+    flex-wrap: wrap;       /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the images horizontally */
+    margin: 20px; 
+}
+
+.me {
+    width: 33%;
+    height: auto;
+    margin: 0;
+}
+
+.introduction {
+    border: 5px solid #333; /* Added solid border */
+    margin: auto; /* Centered margin with percentage */
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(67, 103, 150);
+    max-width: 800px; /* Max width for large screens */
+    width: 90%; /* Full width on smaller screens */
+}
+
+.introduction h3 {
+    margin: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem; /* Use rem for scalable font size */
+    color: aliceblue;
+}
+
+.introduction p {
+    margin: 0;
+    margin-top: auto;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem; /* Use rem for scalable font size */
+    color: aliceblue;
+}
+
+.intro-cont {
+    background-image: url("/image/download.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+}
+
+.contactInfo{
+    color: antiquewhite;
+    display: flex;
+
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .sideGif {
+        width: 20%; /* Adjust size for smaller screens */
+    }
+
+    .name {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .cName a {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .introduction h3, .introduction p {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+
+    .me {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .index, .profile, .introduction {
+        width: 95%; /* Adjust widths for smaller screens */
+    }
+}
