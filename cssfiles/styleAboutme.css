@@ -49,9 +49,12 @@
     border-radius: 20px;
     color: antiquewhite;
     padding: 10px;
+    overflow: hidden;
 }
 
 .information h2,h3{
+    word-wrap:beak-word;
+    box-sizing:border-box;
     margin: 50px 5px 15px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
