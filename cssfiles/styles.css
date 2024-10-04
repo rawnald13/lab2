@@ -1,6 +1,6 @@
 /* INDEX*/
 .body1 {
-    background-image: url("/assets/background1.png");
+    background-image: url("../assets/background1.png");
 }
 
 .container1 {
@@ -15,7 +15,7 @@
     position:sticky;
     top: 0;
     z-index: 10px;
-    background-image: url("/assets/background2.png");
+    background-image: url("../assets/background2.png");
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
