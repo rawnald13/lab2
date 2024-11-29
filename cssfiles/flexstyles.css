@@ -157,16 +157,18 @@
     margin: 0%;
 }
 
-.contactInfo {
-  color: antiquewhite;
-  display: flex;
-  flex-direction: row; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  text-align: center; /* Ensures text inside the div is centered */
-  padding: 20px; /* Add spacing inside the container */
-  border-radius: 10px; /* Optional: Add rounded corners */
+footer.contactInfo {
+  display: flex; /* Enables flexbox for the footer */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically (optional, if height is defined) */
+  flex-direction: column; /* Ensures content stacks vertically */
+  text-align: center; /* Centers text within the flex items */
+  background-color: #333; /* Optional: background color for the footer */
+  color: antiquewhite; /* Text color */
+  padding: 20px; /* Spacing inside the footer */
+  height: auto; /* Adjust height based on content */
 }
+
 
 
 .contactInfo h2{
