@@ -157,10 +157,10 @@
     margin: 0%;
 }
 
-footer.contactInfo {
+.contactInfo {
+
   justify-content: center; /* Centers content horizontally */
   color: antiquewhite; /* Text color */
-  padding: 20px; /* Spacing inside the footer */
   height: auto; /* Adjust height based on content */
 }
 
