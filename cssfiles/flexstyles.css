@@ -157,14 +157,23 @@
     margin: 0%;
 }
 
-.contactInfo {
-  display:flex;
-  flex-direction: row;
-  flex-wrap:nowrap
-  justify-content: center; /* Centers content horizontally */
-  color: antiquewhite; /* Text color */
-  height: auto; /* Adjust height based on content */
+footer {
+  display: flex; /* Enable Flexbox for the footer */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 150px; /* Optional: Set a fixed height for the footer */
+  background-color: #333; /* Optional: Add a background color */
+  color: antiquewhite; /* Set text color */
 }
+
+.contactInfo {
+  display: flex; /* Enable Flexbox for the inner content */
+  flex-direction: row; /* Arrange items in a row */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  gap: 10px; /* Add space between items */
+  text-align: center; /* Center text within each item */
+}
+
 
 
 
