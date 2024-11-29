@@ -160,6 +160,7 @@
 .contactInfo{
     color: antiquewhite;
     display: flex;
+    text-align:center;
 
 }
 
