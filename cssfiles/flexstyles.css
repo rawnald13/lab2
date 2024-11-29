@@ -157,13 +157,19 @@
     margin: 0%;
 }
 
-.contactInfo{
-    color: antiquewhite;
-    display: flex;
-    text-align:center;
+.contactInfo {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Ensures text inside the div is centered */
+  padding: 20px; /* Add spacing inside the container */
+  border-radius: 10px; /* Optional: Add rounded corners */
 }
 
-.contactInfor h2{
+
+.contactInfo h2{
     color:#333;
 }
 
